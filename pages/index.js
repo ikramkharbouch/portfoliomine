@@ -11,6 +11,8 @@ import Bash from '../public/bash.svg'
 import Clang from '../public/c.svg'
 import Docker from '../public/docker.svg'
 import Git from '../public/git.svg'
+import Image from 'next/image'
+import profilePic from '../public/myavatar.jpeg'
 
 export default function Home() {
   return (
@@ -21,7 +23,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <div className="mx-auto text-center text-2xl flex flex-col mt-20">
-        <div className="mx-auto h-32 w-32 bg-gray-600 rounded-full"></div>
+        <div className="mx-auto h-32 w-32 bg-gray-600 rounded-full">
+          <Image src={profilePic} className="rounded-full" />
+        </div>
         <div className="w-3/4 h-72 rounded border-2 mx-auto mt-10 border-blue-300">
           <div className="w-4/6 mx-auto">
             <h1 className="mt-11 text-gray-600 font-bold text-lg">Welcome to my portfolio</h1>
@@ -108,8 +112,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
 
         </div>
       </div>
