@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { AiFillGithub, AiOutlineHeatMap, AiFillTwitterCircle } from "react-icons/ai";
+
+import { FiExternalLink } from "react-icons/fi"
 import Atom from '../public/atom.svg'
 import JS from '../public/js.svg'
 import MongoDb from '../public/mongodb.svg'
@@ -113,6 +115,58 @@ export default function Home() {
             </div>
           </div>
 
+        </div>
+        <div className="mx-auto flex gap-2 justify-between mt-10 w-2/12">
+          <div className="bg-pink-500 rounded-full shadow-lg w-28 h-3">&nbsp;</div>
+          <div className="bg-pink-500 rounded-full shadow-lg w-12 h-3">&nbsp;</div>
+          <div className="bg-pink-500 rounded-full shadow-lg w-28 h-3">&nbsp;</div>
+        </div>
+        <h1 className="text-gray-600 font-bold text-lg mt-10">Previous Projects</h1>
+        <div className="grid grid-cols-2 mx-28 gap-4 mt-10">
+          <div className="h-40 border-2 border-blue-300 rounded-lg">
+            <div className="flex justify-between mx-5 m-4">
+              <h1 className="text-gray-600 font-black text-base">Camagru</h1>
+              <FiExternalLink color="#EC4899" />
+            </div>
+            <p className="text-xs mx-5 text-left">Brief introduction about the project and what it does.</p>
+            <div className="mt-5 mx-5 flex gap-2">
+              {/* tags in here */}
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-1/4 rounded-full py-1">PHP</div>
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-2/4 rounded-full py-1">Javascript</div>
+            </div>
+          </div>
+          <div className="h-40 border-2 border-blue-300 rounded-lg">
+            <div className="flex justify-between mx-5 m-4">
+              <h1 className="text-gray-600 font-black text-base">Matcha</h1>
+              <FiExternalLink color="#EC4899" />
+            </div>
+            <p className="text-xs mx-5 text-left">Brief introduction about the project and what it does.</p>
+            <div className="mt-5 mx-5 flex gap-2">
+              {/* tags in here */}
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-1/4 rounded-full py-1">React</div>
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-2/4 rounded-full py-1">ExpressJs</div>
+            </div>
+          </div>
+          <div className="h-40 border-2 border-blue-300 rounded-lg"><div className="flex justify-between mx-5 m-4">
+            <h1 className="text-gray-600 font-black text-base">Side Project</h1>
+            <FiExternalLink color="#EC4899" />
+          </div>
+            <p className="text-xs mx-5 text-left">Brief introduction about the project and what it does.</p>
+            <div className="mt-5 mx-5 flex gap-2">
+              {/* tags in here */}
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-1/3 rounded-full py-1">NextJs</div>
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-2/5 rounded-full py-1">Postgresql</div>
+            </div></div>
+          <div className="h-40 border-2 border-blue-300 rounded-lg"><div className="flex justify-between mx-5 m-4">
+            <h1 className="text-gray-600 font-black text-base">AnimeList</h1>
+            <FiExternalLink color="#EC4899" />
+          </div>
+            <p className="text-xs mx-5 text-left">Brief introduction about the project and what it does.</p>
+            <div className="mt-5 mx-5 flex gap-2">
+              {/* tags in here */}
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-1/4 rounded-full py-1">React</div>
+              <div className="text-xs font-bold text-indigo-500 bg-blue-100 w-2/6 rounded-full py-1">Docker</div>
+            </div></div>
         </div>
       </div>
     </>
