@@ -19,16 +19,15 @@ import profilePic from '../public/myavatar.jpeg'
 export default function Home() {
   return (
     <>
-      <Head>
+    <Head>
         <title>My own portfolio</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
       <div className="mx-auto text-center text-2xl flex flex-col mt-20">
         <div className="mx-auto h-32 w-32 bg-gray-600 rounded-full">
           <Image src={profilePic} className="rounded-full" />
         </div>
-        <div className="w-3/4 h-72 rounded border-2 mx-auto mt-10 border-blue-300">
+        <div className="h-72 rounded border-2 mx-auto mt-10 border-blue-300">
           <div className="w-4/6 mx-auto">
             <h1 className="mt-11 text-gray-600 font-bold text-lg">Welcome to my portfolio</h1>
             <p className="text-base mt-7">I am a 1337 student. A web developer who is looking to grow through new experiences.</p>
@@ -43,20 +42,20 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mx-auto flex gap-2 justify-between mt-10 w-2/12">
+        <div className="mx-auto flex gap-2 justify-between mt-10">
           <div className="bg-pink-500 rounded-full shadow-lg w-28 h-3">&nbsp;</div>
           <div className="bg-pink-500 rounded-full shadow-lg w-12 h-3">&nbsp;</div>
           <div className="bg-pink-500 rounded-full shadow-lg w-28 h-3">&nbsp;</div>
         </div>
-        <div className="px-28">
+        <div className="">
           <h1 className="text-center text-gray-600 font-bold text-lg mt-10">Skills</h1>
-          <div className="w-4/6 h-3 rounded-full bg-pink-500 mx-auto mt-10 shadow-lg flex justify-between">
+          <div className="w-2/6 h-3 rounded-full bg-pink-500 mx-auto mt-10 shadow-lg flex justify-between">
             <div className="bg-pink-500 w-3 h-14 rounded-full shadow-lg relative top-0">&nbsp;</div>
             <div className="bg-pink-500 w-3 h-10 rounded-full shadow-lg relative top-0">&nbsp;</div>
             <div className="bg-pink-500 w-3 h-14 rounded-full shadow-lg relative top-0">&nbsp;</div>
           </div>
 
-          <div className="flex mx-auto">
+          <div className="flex mx-auto w-1/2">
 
             <div className="mt-10 w-5/6 mx-auto flex flex-col justify-between">
               <h1 className="text-gray-600 font-bold text-lg mt-10">Web dev</h1>
@@ -122,7 +121,7 @@ export default function Home() {
           <div className="bg-pink-500 rounded-full shadow-lg w-28 h-3">&nbsp;</div>
         </div>
         <h1 className="text-gray-600 font-bold text-lg mt-10">Previous Projects</h1>
-        <div className="grid grid-cols-2 mx-28 gap-4 mt-10">
+        <div className="grid grid-cols-2 mx-auto gap-4 mt-10 w-1/2">
           <div className="h-40 border-2 border-blue-300 rounded-lg">
             <div className="flex justify-between mx-5 m-4">
               <h1 className="text-gray-600 font-black text-base">Camagru</h1>
@@ -169,6 +168,7 @@ export default function Home() {
             </div></div>
         </div>
       </div>
+     
     </>
   )
 }
