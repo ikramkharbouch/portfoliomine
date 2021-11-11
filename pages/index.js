@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../public/myavatar.jpeg'
 
-import { Container, Avatar, Brief, Box, Skills, Projects, Talks, Navbar, Shape } from '../components/index'
+import { Container, Avatar, Brief, Box, Skills, Projects, Talks, Navbar, Shape, Contact } from '../components/index'
 
 
 export default function Home() {
@@ -24,6 +24,8 @@ export default function Home() {
       <Projects />
       <Shape />
       <Talks />
+      <Shape />
+      <Contact />
     </Container>
   )
 }
