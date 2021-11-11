@@ -9,3 +9,5 @@ export const Shape = () => {
         </>
     )
 }
+
+export default Shape
