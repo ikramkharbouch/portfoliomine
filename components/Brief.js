@@ -1,12 +1,19 @@
 import { AiFillGithub, AiOutlineHeatMap, AiFillTwitterCircle } from "react-icons/ai";
+import { FaDev } from "react-icons/fa"
+import Link from 'next/link'
 
 const Button = ({text}) => {
     return (
-      <button className="w-1/2 bg-pink-500 text-base rounded-lg py-4 font-bold text-white shadow-lg">{text}</button>
+      <button className="w-4/5 bg-pink-500 text-sm rounded-lg py-4 font-bold text-white shadow-lg">{text}</button>
     )
   }
 
 const Brief = () => {
+
+  const githubUrl = "https://github.com/ikramkharbouch"
+  const TwitterUrl = "https://twitter.com/geekyumeko"
+  const DevUrl = "https://dev.to/ikramkharbouch"
+
     return (
     <div className="h-72 rounded border-2 mx-auto mt-10 border-blue-300 w-full">
         <div className="w-4/6 mx-auto">
@@ -14,11 +21,11 @@ const Brief = () => {
             <p className="text-base mt-7">I am a 1337 student. A web developer who is looking to grow through new experiences.</p>
         </div>
         <div className="flex mx-auto text-center w-4/6 mt-10 gap-5 items-center">
-              <Button text="Download Resume" />
+              <Link href="../public/Resume of mine.pdf"><a target="_blank" download className="w-full"><Button text="Download Resume"/></a></Link>
               <div className="flex justify-around w-1/2">
-                <AiFillGithub color="#4B5563" />
-                <AiFillTwitterCircle color="#4B5563" />
-                <AiOutlineHeatMap color="#4B5563" />
+                <Link href={githubUrl}><a target="_blank"><AiFillGithub color="#4B5563" /></a></Link>
+                <Link href={TwitterUrl}><a target="_blank"><AiFillTwitterCircle color="#4B5563" /></a></Link>
+                <Link href={DevUrl}><a target="_blank"><FaDev color="#4B5563" /></a></Link>
               </div>
             </div>
     </div>);
