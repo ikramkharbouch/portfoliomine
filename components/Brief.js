@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Button = ({ text }) => {
   return (
-    <button className="w-4/5 bg-pink-500 text-xs lg:text-sm rounded-lg py-4 font-bold text-white shadow-lg">{text}</button>
+    <button className="w-4/5 bg-pink-500 text-xs lg:text-sm rounded-lg py-4 font-bold text-white">{text}</button>
   )
 }
 

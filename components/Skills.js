@@ -3,10 +3,10 @@ import { Atom, JS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } fr
 const Skills = () => {
   return (<div className="w-full mx-auto">
     <h1 className="text-center text-gray-600 font-bold text-lg mt-10">Skills</h1>
-    <div className="w-4/6 h-3 hidden lg:flex rounded-full bg-pink-500 mx-auto mt-10 shadow-lg justify-between">
-      <div className="bg-pink-500 w-3 h-14 rounded-full shadow-lg relative top-0">&nbsp;</div>
-      <div className="bg-pink-500 w-3 h-10 rounded-full shadow-lg relative top-0">&nbsp;</div>
-      <div className="bg-pink-500 w-3 h-14 rounded-full shadow-lg relative top-0">&nbsp;</div>
+    <div className="w-4/6 h-3 hidden lg:flex rounded-full bg-pink-500 mx-auto mt-10 justify-between">
+      <div className="bg-pink-500 w-3 h-14 rounded-full relative top-0">&nbsp;</div>
+      <div className="bg-pink-500 w-3 h-10 rounded-full relative top-0">&nbsp;</div>
+      <div className="bg-pink-500 w-3 h-14 rounded-full relative top-0">&nbsp;</div>
     </div>
 
     <div className="flex w-full justify-around flex-col lg:flex-row">
