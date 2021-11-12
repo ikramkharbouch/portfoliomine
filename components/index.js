@@ -8,6 +8,7 @@ import Navbar from './Navbar'
 import Shape from './Shape'
 import Talks from './Talks'
 import Contact from './Contact'
+import Footer from './Footer'
 import Atom from '../public/atom.svg'
 import JS from '../public/js.svg'
 import MongoDb from '../public/mongodb.svg'
@@ -30,6 +31,7 @@ export {
     Navbar,
     Shape,
     Contact,
+    Footer,
     Atom,
     JS,
     MongoDb,
