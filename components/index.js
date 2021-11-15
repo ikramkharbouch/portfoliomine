@@ -19,6 +19,7 @@ import Bash from '../public/bash.svg'
 import Clang from '../public/c.svg'
 import Docker from '../public/docker.svg'
 import Git from '../public/git.svg'
+import TS from '../public/typescript.svg'
 
 export {
     Container,
@@ -42,4 +43,5 @@ export {
     Clang, 
     Docker,
     Git,
+    TS,
 }

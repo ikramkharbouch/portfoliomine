@@ -1,4 +1,4 @@
-import { Atom, JS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } from '../index'
+import { Atom, JS, TS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } from '../index'
 
 const Skills = () => {
   return (<div className="w-full mx-auto">
@@ -23,6 +23,10 @@ const Skills = () => {
             <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">Javascript</p>
           </div>
           <div className="w-28 h-9 lg:w-40 lg:h-11 rounded-lg border-2 border-blue-300 mt-5 mx-auto flex">
+            <TS className="h-5 w-5 mt-1.5 lg:mt-2.5 ml-2 lg:ml-4" />
+            <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">Typescript</p>
+          </div>
+          <div className="w-28 h-9 lg:w-40 lg:h-11 rounded-lg border-2 border-blue-300 mt-5 mx-auto flex">
             <MongoDb className="h-5 w-5 mt-1.5 lg:mt-2.5 ml-2 lg:ml-4" />
             <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">MongoDb</p>
           </div>
@@ -34,6 +38,7 @@ const Skills = () => {
             <NodeJs className="h-5 w-5 mt-1.5 lg:mt-2.5 ml-2 lg:ml-4" />
             <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">Node Js</p>
           </div>
+          
         </div>
 
       </div>
