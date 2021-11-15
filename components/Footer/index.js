@@ -5,8 +5,8 @@ import Link from 'next/link'
 const Footer = () => {
 
     const githubUrl = "https://github.com/ikramkharbouch"
-  const TwitterUrl = "https://twitter.com/geekyumeko"
-  const DevUrl = "https://dev.to/ikramkharbouch"
+    const TwitterUrl = "https://twitter.com/geekyumeko"
+    const DevUrl = "https://dev.to/ikramkharbouch"
   
     return ( 
     <footer className="fullscreen mt-10 h-20 flex items-center">

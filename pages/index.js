@@ -4,13 +4,16 @@ import profilePic from '../public/myavatar.jpeg'
 
 import { Container, Avatar, Brief, Box, Skills, Projects, Talks, Navbar, Shape, Contact, Footer } from '../components/index'
 
-export default function Home() {
+import Test from '../components/Test'
+
+const Home = () => {
   return (
     <>
       <Container>
         <Head>
           <title>My own portfolio</title>
         </Head>
+
         <Navbar />
         <Box>
           <Avatar>
@@ -31,3 +34,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

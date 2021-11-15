@@ -1,4 +1,4 @@
-export const Shape = () => {
+const Shape = () => {
     return (
         <>
         <div className="mx-auto flex gap-2 justify-between mt-10 w-32">

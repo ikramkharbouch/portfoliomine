@@ -1,4 +1,4 @@
-import { Atom, JS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } from './index'
+import { Atom, JS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } from '../index'
 
 const Skills = () => {
   return (<div className="w-full mx-auto">

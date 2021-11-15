@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "next": "latest",
@@ -13,8 +14,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-player": "^2.9.0",
-    "react-youtube": "^7.13.1",
-    "styled-components": "^5.3.3"
+    "react-youtube": "^7.13.1"
   },
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",

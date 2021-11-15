@@ -1,9 +1,8 @@
-import { Container } from '../components/styles/Container.styled'
 import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return (<Container><Component {...pageProps} /></Container>)
+  return (<Component {...pageProps} />)
 }
 
 export default MyApp

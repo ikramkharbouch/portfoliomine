@@ -1,5 +1,5 @@
-import Container from './Container'
-import Avatar from './Avatar'
+import Container from './Container/index'
+import Avatar from './Avatar/index'
 import Brief from './Brief'
 import Box from './Box'
 import Skills from './Skills'
