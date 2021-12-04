@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../public/myavatar.jpeg'
+import profilePic from '../public/professiona-photo.png'
 
 import { Container, Avatar, Brief, Box, Skills, Projects, Talks, Navbar, Shape, Contact, Footer } from '../components/index'
 
