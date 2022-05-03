@@ -20,6 +20,7 @@ import Clang from '../public/c.svg'
 import Docker from '../public/docker.svg'
 import Git from '../public/git.svg'
 import TS from '../public/typescript.svg'
+import GraphQL from '../public/graphql.svg'
 
 export {
     Container,
@@ -44,4 +45,5 @@ export {
     Docker,
     Git,
     TS,
+    GraphQL,
 }

@@ -1,4 +1,4 @@
-import { Atom, JS, TS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git } from '../index'
+import { Atom, JS, TS, MongoDb, NextJs, NodeJs, MySQL, Bash, Clang, Docker, Git, GraphQL } from '../index'
 
 const Skills = () => {
   return (<div className="w-full mx-auto">
@@ -73,6 +73,10 @@ const Skills = () => {
           <div className="w-28 h-9 lg:w-40 lg:h-11 rounded-lg border-2 border-blue-300 mt-5 mx-auto flex">
             <MySQL className="h-5 w-5 mt-1.5 lg:mt-2.5 ml-2 lg:ml-4" />
             <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">Mysql</p>
+          </div>
+          <div className="w-28 h-9 lg:w-40 lg:h-11 rounded-lg border-2 border-blue-300 mt-5 mx-auto flex">
+            <GraphQL className="h-5 w-5 mt-1.5 lg:mt-2.5 ml-2 lg:ml-4" />
+            <p className="text-gray-600 font-medium text-xs lg:text-sm mt-2 lg:mt-2.5 ml-2 lg:ml-3">GraphQL</p>
           </div>
         </div>
       </div>

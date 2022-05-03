@@ -19,10 +19,10 @@ const Brief = () => {
       <div className="mx-auto">
         <div className="w-4/6 mx-auto">
           <h1 className="text-gray-600 font-bold text-lg">Welcome to my portfolio</h1>
-          <p className="text-sm lg:text-base mt-4 lg:mt-7 font-light">I am a digital architect, focused on web development, programming and problem solving.</p>
+          <p className="text-sm lg:text-base mt-4 lg:mt-7 font-light">I am a digital geek, focused on web development, programming and problem solving.</p>
         </div>
         <div className="flex mx-auto flex-col lg:flex-row text-center w-4/6 mt-5 lg:mt-10 gap-5 items-center">
-          <Link href="../ikram-kharbouch.pdf"><a target="_blank" download className="w-full"><Button text="Download Resume" /></a></Link>
+          <Link href="./ikram-kharbouch.pdf"><a target="_blank" download className="w-full"><Button text="Download Resume" /></a></Link>
           <div className="flex justify-around w-1/2">
             <Link href={githubUrl}><a target="_blank"><AiFillGithub color="#4B5563" /></a></Link>
             <Link href={TwitterUrl}><a target="_blank"><AiFillTwitterCircle color="#4B5563" /></a></Link>
