@@ -22,7 +22,7 @@ const Brief = () => {
           <p className="text-sm lg:text-base mt-4 lg:mt-7 font-light">I am a digital geek, focused on web development, programming and problem solving.</p>
         </div>
         <div className="flex mx-auto flex-col lg:flex-row text-center w-4/6 mt-5 lg:mt-10 gap-5 items-center">
-          <a href="./public/ikram-webdev-curriculum-vitae.pdf" target="_blank" download className="w-full"><Button text="Download Resume" /></a>
+          <a href="./ikram-webdev-curriculum-vitae.pdf" target="_blank" download className="w-full"><Button text="Download Resume" /></a>
           <div className="flex justify-around w-1/2">
             <Link href={githubUrl}><AiFillGithub color="#4B5563" /></Link>
             <Link href={TwitterUrl}><AiFillTwitterCircle color="#4B5563" /></Link>
