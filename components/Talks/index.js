@@ -18,7 +18,7 @@ const Talks = () => {
                     <p className="text-sm text-gray-500 font-medium">Event: <span className="text-green-400">BlablaConf</span></p>
                     <h1 className="text-sm text-gray-500 font-medium mt-2">Title:&nbsp;&nbsp;&nbsp;<span className="text-sm lg:text-lg text-gray-600 font-bold">Learn How to use the react context api</span></h1>
                 </div>
-                <div className="h-full"><Link href={geeksUrl}><a target="_blank"><FiExternalLink color="#EC4899" className="m-4 cursor-pointer"/></a></Link></div>
+                <div className="h-full"><Link href={geeksUrl}><FiExternalLink color="#EC4899" className="m-4 cursor-pointer"/></Link></div>
                 
             </div>
             
