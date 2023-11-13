@@ -22,18 +22,18 @@ const Brief = () => {
           <p className="text-sm lg:text-base mt-4 lg:mt-7 font-light dark:text-gray-300">I am a digital geek, focused on web development, programming and problem solving.</p>
         </div>
         <div className="flex mx-auto flex-col lg:flex-row text-center w-4/6 mt-5 lg:mt-10 gap-5 items-center">
-          <a href="./ikram-webdev-curriculum-vitae.pdf" target="_blank" download className="w-full"><Button text="Download Resume" /></a>
-          <div className="flex justify-around w-1/2">
+          <a href="./Ikram-Kharbouch.pdf" target="_blank" download className="w-full"><Button text="Download Resume" /></a>
+          <div className="flex gap-2 w-1/2">
             <Link href={githubUrl} legacyBehavior>
               <a className='text-gray-700 dark:text-white'>
                 <AiFillGithub />
               </a>
             </Link>
-            <Link href={TwitterUrl} legacyBehavior>
+            {/* <Link href={TwitterUrl} legacyBehavior>
               <a className='text-gray-700 dark:text-white'>
                 <AiFillTwitterCircle />
               </a>
-            </Link>
+            </Link> */}
             <Link href={DevUrl} legacyBehavior>
               <a className='text-gray-700 dark:text-white'>
                 <FaDev />
