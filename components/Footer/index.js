@@ -16,9 +16,6 @@ const Footer = () => {
             <Link href={githubUrl}>
                 <AiFillGithub color="#EC4899" className="h-6 w-6"/>
             </Link>
-            <Link href={TwitterUrl}>
-                <AiFillTwitterCircle color="#EC4899" className="h-6 w-6"/>
-            </Link>
             <Link href={DevUrl}>
                 <FaDev color="#EC4899" className="h-6 w-6"/>
             </Link>
